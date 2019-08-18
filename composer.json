@@ -1,0 +1,22 @@
+{
+  "name": "neovav\\Text",
+  "description": "A PHP lib for text",
+  "keywords": ["text", "strings", "php", "neovav"],
+  "homepage": "https://github.com/neovav/Text",
+  "type": "library",
+  "license": "Apache-2.0",
+  "support": {
+    "issues": "https://github.com/neovav/Text/issues",
+    "source": "https://github.com/neovav/Text"
+  },
+  "minimum-stability": "beta",
+  "require": {
+    "php": "~7.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "neovav\\Net\\": "src/"
+    }
+  }
+}
