@@ -55,7 +55,8 @@ use \neovav\Text\Text;
 
 require_once '..'.DIRECTORY_SEPARATOR.'vendor'.DIRECTORY_SEPARATOR.'autoload.php';
 
-echo Text::genPass('Привет');
+$str = 'Привет';
+echo $str.' => '.Text::translit($str);
 ```
 
 For more samples view in directory : samples

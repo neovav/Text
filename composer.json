@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "neovav\\Net\\": "src/"
+      "neovav\\Text\\": "src/"
     }
   }
 }
